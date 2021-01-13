@@ -1,0 +1,13 @@
+package ru.spbstu.pipeline;
+
+public enum ReturningCode {
+    NO_ERROR,
+    INVALID_ARGUMENT_ERROR,
+    READ_ERROR,
+    WRITE_ERROR,
+    GRAMMAR_MISMATCH_ERROR,
+    INPUT_FILE_OPEN_ERROR,
+    OUTPUT_FILE_OPEN_ERROR,
+    BUFFER_SIZE_ERROR,
+    ALGORITHM_PARAM_ERROR;
+}
